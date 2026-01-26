@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Market</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* Dropdown */
+        select {
+            padding: 10px;
+            margin: 20px;
+        }
+
+        /* Slider */
+        .slider {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slides {
+            display: flex;
+            animation: slide 10s infinite;
+        }
+
+        .slides img {
+            width: 100%;
+            height: 300px;
+        }
+
+        @keyframes slide {
+            0% { margin-left: 0%; }
+            33% { margin-left: -100%; }
+            66% { margin-left: -100%; }
+        }
+
+        /* Products */
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+        }
+
+        .product a {
+            text-decoration: none;
+            color: white;
+            background: green;
+            padding: 8px;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>🛒 Super Market Products</h1>
+
+<!-- Dropdown Menu -->
+<center>
+<select>
+    <option>Select Category</option>
+    <option>Fruits</option>
+    <option>Vegetables</option>
+    <option>Dairy</option>
+    <option>Snacks</option>
+</select>
+</center>
+
+<!-- Image Slider -->
+<div class="slider">
+    <div class="slides">
+        <img src="image1.png">
+        <img src="image2.png">
+        <img src="image3.png">
+        <img src="image4.png">
+    </div>
+</div>
+
+<!-- Product Section -->
+<div class="products">
+
+    <div class="product">
+        <img src="Apple.png">
+        <h3>Apple</h3>
+        <p>₹120 / kg</p>
+        <a href="Apple.html">View Product</a>
+    </div>
+
+    <div class="product">
+        <img src="Milk.png">
+        <h3>Milk</h3>
+        <p>₹50 / liter</p>
+        <a href="Milk.html">View Product</a>
+    </div>
+
+    <div class="product">
+        <img src="Chips.png">
+        <h3>Chips</h3>
+        <p>₹30</p>
+        <a href="Chips.html">View Product</a>
+    </div>
+
+</div>
+
+</body>
+</html>
