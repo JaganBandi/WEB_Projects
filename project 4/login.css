@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* HOME BUTTON */
+.home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #0f766e;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* LOGIN BOX */
+.login-box {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #0f766e;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+}
+
+/* FORGOT PASSWORD */
+.forgot {
+    text-align: right;
+    margin-top: 8px;
+}
+
+.forgot a {
+    color: #0f766e;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* BUTTONS */
+.login-btn {
+    background: #4338ca;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.or {
+    text-align: center;
+    margin: 20px 0;
+    color: #6b7280;
+}
+
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.google {
+    background: #ef4444;
+    color: white;
+}
+
+.facebook {
+    background: #2563eb;
+    color: white;
+}
+
+/* SIGN UP */
+.signup {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup a {
+    color: #0f766e;
+    text-decoration: none;
+    font-weight: bold;
+}

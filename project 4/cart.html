@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+<a href="index.html" class="Home-btn">🏡home</a>
+<header class="cart-header">
+    <h2>🛒 My Cart</h2>
+    <a href="product.html">⬅ Continue Shopping</a>
+</header>
+
+<div class="cart-container">
+
+    <div class="cart-item" data-price="15000">
+        <img src="https://via.placeholder.com/90">
+        <div class="item-details">
+            <h4>Smart Phone</h4>
+            <p>₹15000</p>
+
+            <div class="qty-box">
+                <button onclick="changeQty(this, -1)">−</button>
+                <span class="qty">1</span>
+                <button onclick="changeQty(this, 1)">+</button>
+            </div>
+        </div>
+        <div class="item-actions">
+            <span class="item-total">₹15000</span>
+            <button class="remove-btn" onclick="removeItem(this)">Remove</button>
+        </div>
+    </div>
+
+    <div class="cart-item" data-price="2000">
+        <img src="https://via.placeholder.com/90">
+        <div class="item-details">
+            <h4>Headphones</h4>
+            <p>₹2000</p>
+
+            <div class="qty-box">
+                <button onclick="changeQty(this, -1)">−</button>
+                <span class="qty">1</span>
+                <button onclick="changeQty(this, 1)">+</button>
+            </div>
+        </div>
+        <div class="item-actions">
+            <span class="item-total">₹2000</span>
+            <button class="remove-btn" onclick="removeItem(this)">Remove</button>
+        </div>
+    </div>
+
+    <div class="cart-summary">
+        <h2>Total: ₹<span id="grandTotal">17000</span></h2>
+        <button class="checkout-btn">Buy Now</button>
+    </div>
+
+</div>
+
+<script src="js/cart.js"></script>
+</body>
+</html>
