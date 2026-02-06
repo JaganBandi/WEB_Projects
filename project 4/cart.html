@@ -14,7 +14,7 @@
 <div class="cart-container">
 
     <div class="cart-item" data-price="15000">
-        <img src="https://via.placeholder.com/90">
+        <img src="phone.jpg">
         <div class="item-details">
             <h4>Smart Phone</h4>
             <p>₹15000</p>
@@ -32,7 +32,7 @@
     </div>
 
     <div class="cart-item" data-price="2000">
-        <img src="https://via.placeholder.com/90">
+        <img src="Headphones.jpg">
         <div class="item-details">
             <h4>Headphones</h4>
             <p>₹2000</p>
@@ -42,7 +42,10 @@
                 <span class="qty">1</span>
                 <button onclick="changeQty(this, 1)">+</button>
             </div>
+            <a href="payment.html">Proceed to Payment</a>
+
         </div>
+
         <div class="item-actions">
             <span class="item-total">₹2000</span>
             <button class="remove-btn" onclick="removeItem(this)">Remove</button>
@@ -53,8 +56,9 @@
         <h2>Total: ₹<span id="grandTotal">17000</span></h2>
         <button class="checkout-btn">Buy Now</button>
     </div>
-
 </div>
+<a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+
 
 <script src="js/cart.js"></script>
 </body>

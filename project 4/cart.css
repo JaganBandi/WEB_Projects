@@ -95,3 +95,19 @@ body {
     border-radius: 8px;
     cursor: pointer;
 }
+.home-btn {
+    display: inline-block;
+    margin: 15px 20px;
+    padding: 8px 14px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #1e40af;
+}
