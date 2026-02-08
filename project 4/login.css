@@ -112,3 +112,23 @@ input {
     text-decoration: none;
     font-weight: bold;
 }
+/* Profile button - top left */
+.profile-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+    transition: 0.3s ease;
+}
+
+.profile-btn:hover {
+    background: #1e40af;
+    transform: translateY(-2px);
+}
