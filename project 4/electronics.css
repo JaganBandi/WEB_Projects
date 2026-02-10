@@ -1,0 +1,69 @@
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Back button */
+.back-btn {
+    text-decoration: none;
+    color: white;
+    background: #0f766e;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Title */
+.page-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #1f2933;
+}
+
+/* Product grid */
+.product-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Product card */
+.product-card {
+    background: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Product image */
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Price */
+.price {
+    color: #16a34a;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* View button */
+.view-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+.view-btn:hover {
+    background: #1e40af;
+}
