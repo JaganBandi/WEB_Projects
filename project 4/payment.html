@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+
+<header>
+    <h2>🛒 ShopHaven</h2>
+    <a href="index.html" class="home-btn">🏡 Home</a>
+</header>
+
+<div class="payment-container">
+    <h3>Select Payment Method</h3>
+
+    <!-- UPI -->
+    <div class="payment-box">
+        <input type="radio" name="payment" id="upi">
+        <label for="upi">
+            <strong>UPI</strong>
+            <input type="text" placeholder="Enter UPI ID">
+        </label>
+    </div>
+
+    <!-- CARD -->
+    <div class="payment-box">
+        <input type="radio" name="payment" id="card">
+        <label for="card">
+            <strong>Debit / Credit Card</strong>
+            <input type="text" placeholder="Card Number">
+            <div class="row">
+                <input type="text" placeholder="MM/YY">
+                <input type="text" placeholder="CVV">
+            </div>
+        </label>
+    </div>
+
+    <!-- NET BANKING -->
+    <div class="payment-box">
+        <input type="radio" name="payment" id="netbanking">
+        <label for="netbanking">
+            <strong>Net Banking</strong>
+            <select>
+                <option>Select Bank</option>
+                <option>SBI</option>
+                <option>HDFC</option>
+                <option>ICICI</option>
+                <option>Axis</option>
+            </select>
+        </label>
+    </div>
+
+    <!-- COD -->
+    <div class="payment-box">
+        <input type="radio" name="payment" id="cod">
+        <label for="cod">
+            <strong>Cash on Delivery</strong>
+            <p>Pay when the product is delivered</p>
+        </label>
+    </div>
+
+    <button class="pay-btn">Proceed to Pay</button>
+</div>
+
+</body>
+</html>
