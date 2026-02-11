@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+<a href="cart.html" class="back-btn">← Back to Cart</a>
+
+<div class="checkout-container">
+
+    <!-- ADDRESS SECTION -->
+    <section class="checkout-box">
+        <h2>📍 Delivery Address</h2>
+
+        <div class="address-card">
+            <input type="radio" name="address" checked>
+            <div>
+                <strong>Jagan Kalyan</strong><br>
+                12-3-45, Main Road,<br>
+                Anathapur, Andhara pradesh - 515001<br>
+                📞 7981961842
+            </div>
+        </div>
+
+        <div class="address-card">
+            <input type="radio" name="address">
+            <div>
+                <strong>Office Address</strong><br>
+                Tech park, HiTech City,<br>
+                Anathapur- 500081<br>
+                📞 9573203805
+            </div>
+        </div>
+
+        <a href="register.html" class="change-address">+ Add / Change Address</a>
+    </section>
+
+    <!-- ORDER SUMMARY -->
+    <section class="checkout-box">
+        <h2>🧾 Order Summary</h2>
+
+        <div class="summary-row">
+            <span>Smart Phone</span>
+            <span>₹15,000</span>
+        </div>
+
+        <div class="summary-row">
+            <span>Headphones</span>
+            <span>₹2,000</span>
+        </div>
+
+        <div class="summary-row">
+            <span>Delivery</span>
+            <span>FREE</span>
+        </div>
+
+        <hr>
+
+        <div class="summary-total">
+            <strong>Total</strong>
+            <strong>₹17,000</strong>
+        </div>
+    </section>
+
+    <!-- PAYMENT SECTION -->
+    <section class="checkout-box">
+        <h2>💳 Payment Method</h2>
+
+        <label class="payment-option">
+            <input type="radio" name="payment" checked>
+            Cash on Delivery
+        </label>
+
+        <label class="payment-option">
+            <input type="radio" name="payment">
+            UPI (Google Pay / PhonePe)
+        </label>
+
+        <label class="payment-option">
+            <input type="radio" name="payment">
+            Credit / Debit Card
+        </label>
+
+        <button class="place-order-btn">Place Order</button>
+    </section>
+
+</div>
+
+</body>
+</html>
